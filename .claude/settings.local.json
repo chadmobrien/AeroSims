@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(ls D:/AeroSims/*.json D:/AeroSims/*.ts D:/AeroSims/*.html)"
+    ]
+  }
+}
