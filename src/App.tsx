@@ -103,6 +103,25 @@ export function App() {
           </span>
         </div>
 
+        <a
+          href="/AeroSims/aerosims_explainer.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            fontSize: 12,
+            color: '#60a5fa',
+            textDecoration: 'none',
+            border: '1px solid #1e3a5f',
+            borderRadius: 5,
+            padding: '4px 10px',
+            background: '#0f1f38',
+            letterSpacing: '0.02em',
+            whiteSpace: 'nowrap',
+          }}
+        >
+          How it works ↗
+        </a>
+
         <div style={{ flex: 1 }} />
 
         {/* Simulation time */}
