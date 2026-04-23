@@ -4,7 +4,9 @@
       "Bash(npm install:*)",
       "Bash(npx tsc:*)",
       "Bash(npx vite:*)",
-      "Bash(ls D:/AeroSims/*.json D:/AeroSims/*.ts D:/AeroSims/*.html)"
+      "Bash(ls D:/AeroSims/*.json D:/AeroSims/*.ts D:/AeroSims/*.html)",
+      "Bash(gh run *)",
+      "Bash(npm run *)"
     ]
   }
 }
