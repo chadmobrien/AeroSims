@@ -24,8 +24,17 @@ jobs:
           node-version: 22
           cache: npm
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install nbconvert
+
       - run: npm ci
       - run: npm run build
+
+      - name: Convert notebook to HTML
+        run: jupyter nbconvert --to html --output-dir dist aerosims_explainer.ipynb
 
       - uses: actions/configure-pages@v5
 
