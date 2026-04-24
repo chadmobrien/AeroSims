@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C d:/AeroSims add src/App.tsx)",
+      "Bash(git -C d:/AeroSims commit -m ' *)",
+      "Bash(git -C d:/AeroSims push origin main)"
+    ]
+  }
+}
